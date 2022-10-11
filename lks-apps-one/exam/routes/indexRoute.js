@@ -5,7 +5,7 @@ module.exports = (app) => {
     app.route('/')
         .get(indexController.index)
 
-    app.route('/quiz')
+    app.route('/apiv2/quiz')
         .get(indexController.getAllData)
 
     app.route('/init')
